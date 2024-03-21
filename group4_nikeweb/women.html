@@ -1,0 +1,475 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <title>Nike</title>
+    <link rel="shortcut icon" href="img/nike.png" />
+    <!-- <link rel="stylesheet" href="/css/HomePage.css"> -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body class="container-fluid">
+    <header class="py-2">
+        <!-- <img src="img/Jordan.png" alt="" id="logo_jordan"> -->
+        <!-- <a href="HomePage.html"><img src="img/nike.png" alt="" id="logo_nike"></a> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid d-flex justify-content-center">
+                            <a href="#" class="navbar-brand">
+                                <img src="img/Jordan.png" alt="" id="logo_jordan" />
+                            </a>
+                            <!-- Original left section -->
+                            <div class="collapse navbar-collapse" id="leftNavbar">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">SIGN UP</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <a href="HomePage.html">
+                        <img src="img/nike.png" alt="" id="logo_nike" />
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <!-- Original right section -->
+                            <div class="collapse navbar-collapse justify-content-center pt-3" id="rightNavbar">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <div class="d-flex form-inputs">
+                                            <input class="form-control" type="text" placeholder="Search any product...">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button">
+                                                    <i class="fa-solid fa-search"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </li>
+                                </ul>
+        
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Collapsible Navbar for Medium Screens -->
+        <div class="container-fluid d-lg-none">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsedNavbar" aria-controls="collapsedNavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsedNavbar">
+                        <!-- Left Section -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SIGN UP</a>
+                            </li>
+                        </ul>
+                        <!-- Right Section -->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <div class="d-flex form-inputs">
+                                    <input class="form-control" type="text" placeholder="Search any product...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">
+                                            <i class="fa-solid fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+            <div class="container">
+                <a href="NewFeature.html" class="text-black text-decoration-none">
+                    <div>New & Featured</div>
+                </a>
+                <a href="men.html" class="text-black text-decoration-none">
+                    <div>Men</div>
+                </a>
+                <a href="women.html" class="text-black text-decoration-none">
+                    <div>Women</div>
+                </a>
+                <a href="Sale.html" class="text-black text-decoration-none">
+                    <div>Sale</div>
+                </a>
+                <a href="news.html" class="text-black text-decoration-none">
+                    <div>News</div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="pb-5">
+        <div id="carouselExampleIndicators" class="carousel slide py-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/nn.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/nikez.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/nikeb.jpg" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <script>
+            // Activate carousel auto sliding
+            $('.carousel').carousel({
+                interval: 1000 // Adjust the interval time in milliseconds (e.g., 2000 = 2 seconds)
+            });
+        </script>
+
+
+        <div class="container pb-5 px-5">
+            <div class="d-flex flex-column text-center">
+                <div class="py-5">
+                    <h1>WOMEN</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 py-3">
+                        <h1>SHOES</h1>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <h1>CLOTHINGS</h1>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <h1>GEAR</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-5 px-5">
+            <div class="text-start py-5">
+                <h3>TRENDING</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/27828200-f962-4fa5-b14d-8058d58ab5f5/air-force-1-07-shoes-b0f549.png"
+                            class="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-4  py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/939866f5-0c7f-4aca-9c6b-02e7715e999a/jordan-stadium-90-shoes-0cSSz3.png"
+                            class="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-4  py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5d492ac7-c9a7-4130-9c54-1aa2d64110b3/court-vision-alta-shoes-p7Dnlp.png"
+                            class="card-img-top" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container pb-5 px-5">
+            <div class="text-start py-5">
+                <h1>FEATURED</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 py-md-3 d-flex justify-content-center">
+                    <div class="thumbnail">
+                        <img class="img-fluid" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b27da03e-5663-47ac-beb5-24ddb61d5596/invincible-3-road-running-shoes-3L6fsW.png"
+                            alt="" />
+                        <div class="text-center py-2">
+                            <div class="fs-3">Nike Invincible 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 py-md-3 d-flex justify-content-center">
+                    <div class="thumbnail">
+                        <img class="img-fluid"
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dc12d20f-b913-48e9-85c0-8ff867241b18/invincible-3-road-running-shoes-LL61DX.png"
+                            alt="" />
+                        <div class="text-center py-2">
+                            <div class="fs-3">Nike Invincible 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-5 px-5">
+            <div class="text-start py-5">
+                <h3>THE LATEST & GREATEST</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f094af40-f82f-4fb9-a246-e031bf6fc411/air-force-1-07-shoe-NMmm1B.png"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nike Air Force 1 '07</h5>
+                            <p class="card-text text-center">
+                                <span class="fw-bold">
+                                    Giá
+                                </span>
+                                2,929,000 đ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2c6ca756-9cf8-4a22-9d7c-e95844bf1383/cortez-shoes-svdKM9.png"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum dolor sit</h5>
+                            <p class="card-text text-center">
+                                <span class="fw-bold">
+                                    Giá
+                                </span>
+                                2,499,000 đ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  py-3">
+                    <div class="card">
+                        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f7f37316-31f8-4b98-ad3d-080dc5ccfd58/v2k-run-shoes-Sff0rt.png"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum dolor sit</h5>
+                            <p class="card-text text-center">
+                                <span class="fw-bold">
+                                    Giá
+                                </span>
+                                3,519,000 đ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container pb-5 px-5">
+            <div class="text-start py-5">
+                <h1>SHOP BY SPORT</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 py-md-3 d-flex justify-content-center">
+                    <div class="thumbnail">
+                        <img class="img-fluid"
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/03c385b6-3735-4ec8-bfac-966bc3e051f0/jr-phantom-luna-2-club-younger-older-mg-high-top-football-boot-qbC2KP.png"
+                            alt="" />
+                        <div class="text-center py-4">
+                            <div class="fs-3">Football</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 py-md-3 d-flex justify-content-center">
+                    <div class="thumbnail">
+                        <img class="img-fluid"
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_593,c_limit/157781a3-6f9c-4220-8607-03f7544e201a/jordan-one-take-5-pf-basketball-shoes-QQ243j.png"
+                            alt="" />
+                        <div class="text-center py-4">
+                            <div class="fs-3">Basketball</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container-fluid py-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="https://media-api.advertisingvietnam.com/oapi/v1/media?uuid=d3a44058-d339-4c2d-b8ec-d1cebcf21ff9&resolution=1000x&keepOriginal=true"
+                            alt="First slide" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>ABOUT NIKE
+                        </h6>
+                        <p>
+                            Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            FIND A STORE
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Can Tho</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Ho Chi Minh</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Da Nang</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Ha Noi</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            GET HELP
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Order Status</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Delivery</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Returns</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Payment Options</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+    </footer>
+
+
+
+</body>
+<!-- <script src="/js/index.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</html>

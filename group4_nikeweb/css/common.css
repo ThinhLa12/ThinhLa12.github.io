@@ -1,0 +1,45 @@
+body {
+    /* background: linear-gradient(-45deg, #FFFFFF, #CCCCCC, #dbdbdb, #f8f8f8, #b6b6b6); */
+    background-size: 100vw 1000vh;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+img:not(#logo_jordan):not(#logo_nike) {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+#logo_jordan {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#logo_nike {
+    width: 10vw;
+    height: 5svw;
+    object-fit: contain;
+}
+
+#img_iconicc {
+    /* width: 50px; */
+    height: 50svh;
+}
