@@ -1,0 +1,206 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+header{
+    height: 200px;
+    position: relative;
+}
+
+#logo_jordan{
+    width: 40px;
+    height: 35px;
+    padding: 10px;
+}
+#logo_nike{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 47%;
+    top: 10px;
+}
+.nav_bar,nav{
+    margin: 0px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.login span{
+    padding: 0 20px;
+}
+#login{
+    border-right: 2px solid black;
+}
+.search_cart{
+    display: flex;
+}
+#search_box{
+    border: none;
+    width: 200px;
+    font-size: 15px;
+    outline: none;
+}
+.search{
+    width: 250px;
+    height: 30px;
+    border: 1.5px solid rgb(207, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.fa-cart-shopping{
+    margin: 8px 20px 8px 10px;
+}
+nav{
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: rgb(171, 173, 174);
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+#img_home{
+    width: 100%;
+    height: auto;
+}
+.img_slider{
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.new{
+    margin-left: 50px;
+    display: flex;
+}
+.fa-arrow-left{
+    margin: 5px 20px 8px 10px;
+    
+}
+h2{
+    font-size: 25px;
+}
+#ao_nike{
+    border-radius: 30px;
+    float: left;
+    position: relative;
+    width: 30%;
+     margin-left: 35px;
+    padding: 15px;
+}
+#quan_nike{
+    border-radius: 30px;
+    position:relative;
+    width: 30%;
+    float: left;
+    padding: 15px;
+    
+}
+#giay_nike{
+    border-radius: 30px;
+    position: relative;
+    width: 30%;
+    padding: 15px;
+}
+#video{
+   
+    display: flex;
+}
+#giay_moi{
+    border-radius: 30px;
+    position: relative;
+    padding: 10px;
+    margin-left: 30px;
+}
+.a{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20% 10px 20%;
+}
+.footer{
+    display: flex;
+    background-color: black;
+
+}
+.find_a_store{
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+.GET_HELP{
+    color: #727171;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.ABOUT_NIKE{
+    color: #727171;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon_footer{
+flex-basis: 50%;
+display: flex;
+}
+.text_footer{
+display: flex;
+margin-left: 30px;
+margin-bottom: 50px;
+}
+#pg{
+    color: white;
+}
+#pa{
+    color: white;
+}
+.fa-facebook{
+   font-size: 150%;
+   color: white;
+    align-items: right;
+    position: relative;
+   margin-left: 50%;
+margin-top: 30px;
+padding-right: 50px;
+}
+.fa-youtube{
+    color: white;
+    font-size: 150%;
+    margin-top: 30px;
+    margin-right: 25%; 
+    align-items: right;
+    position: relative; 
+}
+.fa-twitter{
+    color: white;
+    font-size: 150%;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+.fa-instagram{
+    color: white;
+    font-size: 150%;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;}
+    .img_new{
+        display: flex;
+    }
